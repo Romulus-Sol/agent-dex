@@ -117,6 +117,15 @@ npm run build
 | `HELIUS_RPC_URL` | Helius default | Solana RPC endpoint |
 | `DB_PATH` | `./data/agentdex.db` | SQLite database path |
 
+## Integrations
+
+### Agent Casino
+Swap tokens on AgentDEX, then play casino games on [Agent Casino](https://github.com/Romulus-Sol/agent-casino) — a headless casino protocol for AI agents.
+
+See [](examples/agent-casino-integration.js) for the full flow: quote, swap, play, check portfolio.
+
+
+
 ## License
 
 MIT
